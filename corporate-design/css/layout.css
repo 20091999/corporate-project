@@ -1,0 +1,50 @@
+.header .container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header{
+    padding: 24px 0;
+}
+.header .logo{
+    width: 88px;
+    height: 55px;
+}
+
+.navbar{
+    display:flex;
+    column-gap: 56px;
+}
+
+.navbar .navbar-link.active{
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    color: var(--primary);
+}
+
+.shape{
+    width: 112px;
+    height: 112px;
+    position: absolute;
+}
+.slider .shape:first-child{
+    bottom: 26px;
+    left:-60px;
+}
+
+.slider .shape:last-child{
+    top: 26px;
+    right: -40px;
+}
+
+.sevice-item .inner .title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.sevice-item .inner .text{
+    font-weight: 300;
+    font-size: 16px;
+}
