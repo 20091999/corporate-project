@@ -124,4 +124,13 @@ margin: 0 auto 34px;
     padding: 84px 37px;
 }
 
+.navbar-link{
+    color: #000;
 
+}
+
+.service-item .inner{
+    position: absolute;
+    inset: 0;
+    display: flex;
+}

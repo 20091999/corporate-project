@@ -73,6 +73,6 @@ margin-top: 140px;
     line-height: 160%;
 }
 
-.bg-line-gradient{
-    background:linear-gradient(1deg, #FD5C30 0.53%, rgba(0, 0, 0, 0.00) 101.68%);
+.bg-linear-gradient{
+    background: linear-gradient(1deg, #FD5C30 0.53%, rgba(0, 0, 0, 0.00) 101.68%);
 }
