@@ -48,3 +48,53 @@
     font-weight: 300;
     font-size: 16px;
 }
+
+.why-section .container{
+    display: flex;
+    column-gap: 75px;
+}
+
+.why-section .box{
+    width: 50%;
+    position: relative;
+}
+
+.why-section .box:nth-child(2) .text > *{
+    margin-bottom: 28px;
+}
+
+.why-section .box:nth-child(2) .text ul, ol{
+    list-style: decimal;
+    margin-left: 17px;
+    font-weight: 600;
+}
+.why-section .box:nth-child(2) .text{
+    font-size: 18px;
+}
+
+
+.why-section .box:nth-child(2) .text ol li:not(:last-child),
+.why-section .box:nth-child(2) .text ul li:not(:last-child){
+    margin-bottom: 10px;
+   
+}
+
+
+.why-section .box .photo{
+    width: 380px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.why-section .box .photo img:nth-child(2){
+    width: 200px;
+    height: 195px;
+position: absolute;
+bottom: -30px;
+right: -65px;
+}
+
+.why-section .box .shape{
+    top: -33px;
+    left: 40px;
+}
